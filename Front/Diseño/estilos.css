@@ -9,7 +9,7 @@
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     width: 50px;
     border-radius: 5px;
 }
