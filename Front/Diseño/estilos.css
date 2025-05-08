@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.Botones{
+.Botones button{
     background-color: green;
     color:black;
     padding: 14px 25px;
