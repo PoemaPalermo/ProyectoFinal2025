@@ -6,10 +6,25 @@
 .Botones button{
     background-color: rgb(6, 172, 6);
     color:black;
-    padding: 15px 25px;
+    padding: 30px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 150px;
+    width: 200px;
     border-radius: 13px;
+    margin-top: 2vh;
+    margin: 0.5vw;
+}
+.Primero{
+    margin-left: 40vw;
+}
+.Segundo{
+    margin-left: 32vw;
+}
+.Tercero{
+    margin-left: 32vw;
+}
+.Logo_Home{
+    margin-left: 25vw;
+    margin-bottom: 10vh;
 }
