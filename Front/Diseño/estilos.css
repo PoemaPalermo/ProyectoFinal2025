@@ -28,3 +28,25 @@
     margin-left: 25vw;
     margin-bottom: 10vh;
 }
+.Titulo{
+    margin-left: 35vw;
+}
+.Producto_Tipos{
+    margin-left: 10vw;
+    width: 70vw;
+    height: 15vh;
+    background-color: brown;
+    display: flex;
+    line-height: 7vw;
+    margin-bottom: 2vh;
+}
+.Producto_Tipos img{
+    margin-right: 10vw;
+}
+.Nombre_Producto{
+    margin-right: 30vw;
+}
+.ImagenProducto{
+    width: 10vw;
+    height: 15vh;
+}
