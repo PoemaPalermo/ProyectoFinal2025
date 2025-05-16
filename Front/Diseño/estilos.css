@@ -4,28 +4,38 @@
     box-sizing: border-box;
 }
 .Botones button{
+    background-color: rgb(90, 90, 90);
     color:black;
     padding: 30px 50px;
     text-align: center;
-    text-decoration: none;
+    border: none;
     display: inline-block;
-    width: 200px;
-    border-radius: 13px;
+    width: 25vw;
+    height: 15vh;
     margin-top: 2vh;
     margin: 0.5vw;
+    cursor: pointer;
 }
 .Primero{
-    margin-left: 40vw;
+    margin-left: 34vw;
+    margin-bottom: 5vh;
 }
 .Segundo{
-    margin-left: 32vw;
+    margin-left: 21vw;
+    margin-bottom: 5vh;
 }
 .Tercero{
-    margin-left: 32vw;
+    margin-left: 21vw;
 }
 .Logo_Home{
-    margin-left: 25vw;
+    margin-left: 8vw;
     margin-bottom: 2vh;
+    width: 60vw;
+    height: 30vh;
+}
+.Link{
+    color:rgb(209, 208, 208);
+    text-decoration: none;
 }
 .Titulo{
     text-align: center;
@@ -39,7 +49,7 @@
     margin-left: 10vw;
     width: 80vw;
     height: 15vh;
-    background-color: brown;
+    background-color: rgb(90, 90, 90);
     display: flex;
     line-height: 7vw;
     margin-bottom: 2vh;
@@ -58,11 +68,16 @@
     margin-left: 83vw;
     padding: 2vw;
     border-radius: 6vw;
+    background-color:rgb(192, 190, 190);
 }
 .Añadir_Producto a{
     width: 2.5vw;
     height: 2.5vh;
     display: inline-block;
+}
+.Producto_Plus{
+    color:rgb(36, 35, 35);
+    text-decoration: none;
 }
 .Display{
     margin-left: 25vw;
