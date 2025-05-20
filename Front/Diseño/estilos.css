@@ -43,7 +43,7 @@
 }
 .Logo{
     width: 15vw;
-    height: 15vh;
+    height: 20vh;
 }
 .Producto_Tipos{
     margin-left: 10vw;
@@ -53,6 +53,7 @@
     display: flex;
     line-height: 7vw;
     margin-bottom: 2vh;
+    cursor: pointer;
 }
 .Producto_Tipos img{
     margin-right: 10vw;
@@ -75,8 +76,8 @@
     height: 2.5vh;
     display: inline-block;
 }
-.Producto_Plus{
-    color:rgb(36, 35, 35);
+.Texto_Link{
+    color:rgb(0, 0, 0);
     text-decoration: none;
 }
 .Display{
