@@ -41,6 +41,10 @@
     text-align: center;
     font-size: 60px;
 }
+.Titulo_Pasos{
+    font-size: 60px;
+    margin-left: 30vw;
+}
 .Logo{
     width: 15vw;
     height: 20vh;
@@ -98,4 +102,28 @@
 .Titulo_Login_Signin{
     margin-left: 40vw;
     font-size: 45px;
+}
+.Pasos{
+    display:flex;
+}
+.Paso{
+    margin-left: 17vw;
+    margin-bottom: 3vh;
+}
+.Producto_Que_Es{
+    margin-left: 50vw;
+}
+.ImagenProductoDescripcion{
+    width: 15vw;
+    height: 25vh;
+    margin-bottom: 4vh;
+}
+.nav{
+    display: flex;
+    gap: 5vw;
+    margin-left: 4vw;
+    margin-bottom: 5vh;
+}
+.Ya_Estas_Aca{
+    background-color: rgb(190, 189, 186);
 }
