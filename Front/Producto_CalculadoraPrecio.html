@@ -44,38 +44,72 @@
             <div class="Primera_Linea">
                 <img src="" class="ImagenProducto"/>
                 <h1 class="Material_Texto">Material</h1>
-                <h1>Precio</h1>
+                <h1 id="Precio_1">700</h1>
             </div>
             <div class="Segunda_Linea">
-                <input class="Precio_Similar" type="text"/>
+                <input class="Precio_Similar" type="text" id="Input_Precio_1"/>
             </div>
         </div>
         <div class="Materiales_Para_Calcu">
             <div class="Primera_Linea">
                 <img src="" class="ImagenProducto"/>
                 <h1 class="Material_Texto">Material</h1>
-                <h1>Precio</h1>
+                <h1 id="Precio_2">1000</h1>
             </div>
             <div class="Segunda_Linea">
-                <input class="Precio_Similar" type="text"/>
+                <input class="Precio_Similar" type="text" id="Input_Precio_2"/>
             </div>
         </div>
         <div class="Materiales_Para_Calcu">
             <div class="Primera_Linea">
                 <img src="" class="ImagenProducto"/>
                 <h1 class="Material_Texto">Material</h1>
-                <h1>Precio</h1>
+                <h1 id="Precio_3">900</h1>
             </div>
             <div class="Segunda_Linea">
-                <input class="Precio_Similar" type="text"/>
+                <input class="Precio_Similar" type="text" id="Input_Precio_3"/>
             </div>
         </div>
     </main>
     <footer>
         <div class="Textititititos">
-            <h1>Total:</h1>
-            <h1>Precio</h1>
+            <h1>Precio total:</h1>
+            <h1 id="Precio_Producto" class="Total_Precio">Precio</h1>
+            <h1>Ganancia total:</h1>
+            <h1 id="Ganancia_Producto">Precio</h1>
         </div>
+
+        <script>
+            const Precio1 = document.getElementById('Precio_1');
+            const Precio2 = document.getElementById('Precio_2');
+            const Precio3 = document.getElementById('Precio_3');
+            const Similar1 = document.getElementById('Input_Precio_1');
+            const Similar2 = document.getElementById('Input_Precio_2');
+            const Similar3 = document.getElementById('Input_Precio_3');
+            const PrecioTotal = document.getElementById('Precio_Producto');
+            const GananciaTotal = document.getElementById('Ganancia_Producto');
+
+            Similar1.addEventListener('input',Formula_Precios);
+            Similar2.addEventListener('input',Formula_Precios);
+            Similar3.addEventListener('input',Formula_Precios);
+
+            function Formula_Precios(){
+                const Precio_1 = parseInt(Precio1.textContent) ||0;
+                const Precio_2 = parseInt(Precio2.textContent) ||0;
+                const Precio_3 = parseInt(Precio3.textContent) ||0;
+                const Similar_1 = parseInt(Similar1.value) ||0;
+                const Similar_2 = parseInt(Similar2.value) ||0;
+                const Similar_3 = parseInt(Similar3.value) ||0;
+                const PrecioSuma = Precio_1 + Precio_2 + Precio_3;
+                const Ganancia1 = PrecioSuma - Similar_1;
+                const Ganancia2 = PrecioSuma - Similar_2;
+                const Ganancia3 = PrecioSuma - Similar_3;
+                const Ganancia_Promedio = Math.round((Ganancia1 + Ganancia2 + Ganancia3) / 3);
+                GananciaTotal.textContent = `${Ganancia_Promedio}`;
+                PrecioTotal.textContent = `${PrecioSuma}`;
+            }
+
+        </script>
     </footer>
 </body>
 </html>

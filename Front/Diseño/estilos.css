@@ -242,5 +242,8 @@
     display: flex;
     gap: 2vw;
     margin-top: 15vh;
-    margin-left: 80vw;
+    margin-left: 45vw;
+}
+.Total_Precio{
+    margin-right: 8vw;
 }
