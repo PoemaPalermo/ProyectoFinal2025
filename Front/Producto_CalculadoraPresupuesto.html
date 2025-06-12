@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Precio</title>
+    <title>Calculadora de Presupuesto</title>
     <link rel="stylesheet" href="./Diseño/estilos.css">
 </head>
 <body>
@@ -47,9 +47,9 @@
         <div class="Precio_Para_Calcu">
             <img src="" class="ImagenProducto"/>
             <h1 class="Precio_Producto">Material</h1>
-            <h1 class="Precio_Producto">Cantidad</h1>
-            <h1 class="Precio_Producto">Cantidad</h1>
-            <h1 id="Producto_Output">Precio</h1>
+            <h1 class="Precio_Producto" id="Producto_Cantidad">5</h1>
+            <h1 class="Precio_Producto" id="Producto_Output_Cantidad">Cantidad</h1>
+            <h1 id="Producto_Output_Precio">Precio</h1>
         </div>
                 <div class="Precio_Para_Calcu">
             <img src="" class="ImagenProducto"/>
@@ -70,6 +70,26 @@
                 <h1>Total:</h1>
                 <h1 id="Producto_Output_Total">$</h1>
             </div>
+
+            <script>
+                const PrecioProducto = 2;
+                const CantidadNecesaria = 1;
+                const input = document.getElementById('Producto_Input');
+                const cantidad = document.getElementById('Producto_Cantidad');
+                const output_cantidad = document.getElementById('Producto_Output_Cantidad');
+                const output_precio = document.getElementById('Producto_Output_Precio');
+                const precio_total = document.getElementById('Producto_Output_Total');
+
+                input.addEventListener('input', function(){
+                    const Productos_Deseados = parseInt(input.value) ||0;
+                    const Productos_Cantidad = parseInt(cantidad.textContent) ||0;
+                    const Productos_Faltan = Math.max (0, (Productos_Deseados - Productos_Cantidad / CantidadNecesaria)) ;
+                    const Precio = Productos_Deseados * PrecioProducto;
+                    output_cantidad.textContent = `${Productos_Faltan}`;
+                    output_precio.textContent = `${Precio}`;
+                    precio_total.textContent = `$${Precio}`;
+                })
+            </script>
         </div>
     </footer>
 </body>
