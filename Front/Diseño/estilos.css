@@ -49,6 +49,10 @@
     width: 15vw;
     height: 20vh;
 }
+.Logotipo{
+    width: 20vw;
+    height: 15vh;
+}
 .Producto_Tipos{
     margin-left: 10vw;
     width: 80vw;
@@ -254,4 +258,14 @@
 .Otro_Paso{
     margin-left: 12vw;
     margin-bottom: 3vh;
+}
+.Cuadrito_Creacion{
+    width: 43vw;
+    height: 65vh;
+    background-color: rgb(110, 110, 110);
+    margin-left: 30vw;
+}
+.Texto_Centrado{
+    align-content: center;
+    line-height: 2vw;
 }
