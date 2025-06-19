@@ -269,3 +269,42 @@
     align-content: center;
     line-height: 2vw;
 }
+.Botones_Mk{
+    margin-left: 25vw;
+    margin-bottom: 2vh;
+    margin-top: 25vh;
+}
+.Botones_Mk_2{
+    margin-left: 25vw;
+    margin-top: 5vh;
+}
+.Contacto{
+    background-color: rgb(110, 110, 110);
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    align-items: center;
+}
+.Nombre_Contacto{
+    text-align: left;
+    align-self: left;
+}
+.Telefono_Mail{
+    margin-right: 2vw;
+    text-align: right;
+    align-self: right;
+}
+.Contactos{
+    display: flex;
+}
+.Añadir_Contacto{
+    padding: 2vw;
+    border-radius: 4vw;
+    background-color:rgb(192, 190, 190);
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
