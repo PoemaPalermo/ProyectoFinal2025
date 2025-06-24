@@ -6,7 +6,6 @@
 .Botones button{
     background-color: rgb(90, 90, 90);
     color:black;
-    padding: 30px 50px;
     text-align: center;
     border: none;
     display: inline-block;
@@ -259,6 +258,26 @@
     margin-left: 12vw;
     margin-bottom: 3vh;
 }
+.Guia{
+    width: 10vw;
+    height: 100%;
+    background-color: rgb(110, 110, 110);
+    float: left;
+}
+.Boton_Aside{
+    margin: 2vw;
+    margin-bottom: 0.5vh;
+    border: none;
+}
+.ImagenAside{
+    width: 5vw;
+    height: 10vh;
+}
+.LogoAside{
+    width: 7vw;
+    height: 12vh;
+    margin: 1vw;
+}
 .Cuadrito_Creacion{
     width: 43vw;
     height: 72vh;
@@ -302,7 +321,47 @@
     gap: 5vw;
     margin-bottom: 2vh;
 }
-
+.Separacion_Productos{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.Producto{
+    width: 12vw;
+    height: 25vh;
+    background-color: rgb(110, 110, 110);
+}
+.Texto_Creacion_3{
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.ImagenCreacion3{
+    margin-left: 1vw;
+    width: 10vw;
+    height: 15vh;
+}
+.Boton_Creacion_3{
+    width: 15vw;
+    height: 7vh;
+    margin-left: 42vw;
+}
+.Boton_Creacion_4{
+    width: 18vw;
+    height: 10vh;
+    margin-left: 2vw;
+}
+.Tip{
+    width: 25vw;
+    height: 20vh;
+    background-color: rgb(110, 110, 110);
+}
+.Texto_Creacion_5{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
 
 
 
