@@ -261,14 +261,53 @@
 }
 .Cuadrito_Creacion{
     width: 43vw;
-    height: 65vh;
+    height: 72vh;
     background-color: rgb(110, 110, 110);
     margin-left: 30vw;
 }
 .Texto_Centrado{
-    align-content: center;
-    line-height: 2vw;
+    text-align: center;
+    padding: 9vw;
+    width: 50vw;
+    margin-left: -3vw;
+    font-size: 30px;
 }
+.Boton_Creacion_1{
+    width: 25vw;
+    height: 10vh;
+    margin-left: 9vw;
+}
+.Texto_Creacion{
+    width: 45vw;
+    text-align: center;
+    margin-left: 28vw;
+}
+.Tipo_Emprendimiento{
+    text-align: center;
+    width: 12vw;
+    height: 20vh;
+    background-color: rgb(110, 110, 110);
+}
+.Primera_Fila{
+    display: flex;
+    margin-left: 37vw;
+    margin-top: 10vh;
+    gap: 5vw;
+    margin-bottom: 2vh;
+}
+.Segunda_Fila{
+    display: flex;
+    margin-left: 37vw;
+    margin-top: 10vh;
+    gap: 5vw;
+    margin-bottom: 2vh;
+}
+
+
+
+
+
+
 .Botones_Mk{
     margin-left: 25vw;
     margin-bottom: 2vh;
