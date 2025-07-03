@@ -8,13 +8,107 @@
 </head>
 <body>
     <header>
-
+        <a href="General_Home.html">
+            <img src="./Diseño/Logo cuadrado.png" class="ImagenProducto">
+        </a>
+        <h2 class="Texto_Creacion">¿Qué colores querés?</h2>
     </header>
     <main>
+        <div class="Linea_Colores">
+            <div class="Tipo_Color">
+                <input type="color" class="Color_Seleccionar" id="Input_Color_1">
+                <div class="Clase_de_Color">
+                    <p>Color 1</p>
+                </div>
+            </div>
+            <div class="Tipo_Color">
+                <input type="color" class="Color_Seleccionar" id="Input_Color_2">
+                <div class="Clase_de_Color">
+                    <p>Color 2</p>
+                </div>
+            </div>
+            <div class="Colores_Seleccionados">
+                <div class="Color_Seleccionado">
+                    <div class="Cuadrado_Color" id="Color_Elegido_1"></div>
+                    <p id="Resultado_Color_1">Color 1</p>
+                </div>
+                <div class="Color_Seleccionado">
+                    <div class="Cuadrado_Color" id="Color_Elegido_2"></div>
+                    <p id="Resultado_Color_2">Color 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="Linea_Colores">
+            <div class="Tipo_Color">
+                <input type="color" class="Color_Seleccionar" id="Input_Color_3">
+                <div class="Clase_de_Color">
+                    <p>Color 3</p>
+                </div>
+            </div>
+            <div class="Tipo_Color">
+                <input type="color" class="Color_Seleccionar" id="Input_Color_4">
+                <div class="Clase_de_Color">
+                    <p>Color 4</p>
+                </div>
+            </div>
+            <div class="Colores_Seleccionados">
+                <div class="Color_Seleccionado">
+                    <div class="Cuadrado_Color" id="Color_Elegido_3"></div>
+                    <p id="Resultado_Color_3">Color 3</p>
+                </div>
+                <div class="Color_Seleccionado">
+                    <div class="Cuadrado_Color" id="Color_Elegido_4"></div>
+                    <p id="Resultado_Color_4">Color 4</p>
+                </div>
+            </div>
+        </div>
+        <button class="Botoncito_Creacion_9">
+            <a href="Creacion_10.html" class="Texto_Link">
+                <p>Ayuda, no sé qué hacer</p>
+            </a>
+        </button>
+        <script>
+            const InputColor = document.getElementById('Input_Color_1');
+            const ColorDisplay = document.getElementById('Resultado_Color_1');
+            const ColorDisplay_Cuadrado = document.getElementById('Color_Elegido_1')
+            const InputColor2 = document.getElementById('Input_Color_2');
+            const ColorDisplay2 = document.getElementById('Resultado_Color_2');
+            const ColorDisplay_Cuadrado2 = document.getElementById('Color_Elegido_2')
+            const InputColor3 = document.getElementById('Input_Color_3');
+            const ColorDisplay3 = document.getElementById('Resultado_Color_3');
+            const ColorDisplay_Cuadrado3 = document.getElementById('Color_Elegido_3')
+            const InputColor4 = document.getElementById('Input_Color_4');
+            const ColorDisplay4 = document.getElementById('Resultado_Color_4');
+            const ColorDisplay_Cuadrado4 = document.getElementById('Color_Elegido_4')
 
+            InputColor.addEventListener('input', function(){
+                const ColorElegido = this.value;
+                ColorDisplay.textContent = `${ColorElegido}`;
+                ColorDisplay_Cuadrado.style.backgroundColor = ColorElegido;
+            });
+            InputColor2.addEventListener('input', function(){
+                const ColorElegido2 = this.value;
+                ColorDisplay2.textContent = `${ColorElegido2}`;
+                ColorDisplay_Cuadrado2.style.backgroundColor = ColorElegido2;
+            });
+            InputColor3.addEventListener('input', function(){
+                const ColorElegido3 = this.value;
+                ColorDisplay3.textContent = `${ColorElegido3}`;
+                ColorDisplay_Cuadrado3.style.backgroundColor = ColorElegido3;
+            });
+            InputColor4.addEventListener('input', function(){
+                const ColorElegido4 = this.value;
+                ColorDisplay4.textContent = `${ColorElegido4}`;
+                ColorDisplay_Cuadrado4.style.backgroundColor = ColorElegido4;
+            });
+        </script>
     </main>
     <footer>
-
+        <button class="Boton_Creacion_9">
+            <a href="Creacion_11.html" class="Texto_Link">
+                <h3>Listo</h3>
+            </a>
+        </button>
     </footer>
 </body>
 </html>

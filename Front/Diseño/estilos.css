@@ -468,7 +468,99 @@
     margin-left: 2vw;
     margin-top: 1vh;
 }
+.Linea_Colores{
+    display: flex;
+    margin-top: 8vh;
 
+}
+.Tipo_Color{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    margin-left: 10vw;
+}
+.Color_Seleccionar{
+    height: 7vh;
+}
+.Clase_de_Color{
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(110, 110, 110);
+    text-align: center;
+    align-self: center;
+}
+.Colores_Seleccionados{
+    margin-left: 10vw;
+    display: flex;
+    gap: 5vw;
+}
+.Cuadrado_Color{
+    width: 6vw;
+    height: 12vh;
+    background-color: rgb(110, 110, 110);
+}
+.Botoncito_Creacion_9{
+    margin-top: 3vh;
+    width: 15vw;
+    height: 5vh;
+    margin-left: 73vw;
+}
+.Boton_Creacion_9{
+    width: 13vw;
+    height: 8vh;
+    margin-top: 5vh;
+    margin-left: 45vw;
+}
+.Botones_Creacion_11{
+    display: flex;
+}
+.Botoncito_Creacion_11{
+    width: 10vw;
+    height: 4vh;
+    margin-left: 5vw;
+    margin-top: 7vh;
+}
+.Form_Creacion_12{
+    background-color: rgb(110, 110, 110);
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25vw;
+}
+.Texto_Creacion_12{
+    text-align: center;
+    margin-top: 5vh;
+}
+.Subir_Logo{
+    width: 18vw;
+    height: 10vh;
+    margin-left: 16vw;
+    margin-top: 25vh;
+}
+.Boton_Creacion_12{
+    width: 20vw;
+    height: 12vh;
+    margin-left: 15vw;
+    margin-top: 8vh;
+}
+.Form_Creacion_13{
+    background-color: rgb(110, 110, 110);
+    width: 30vw;
+    height: 40vh;
+    margin-left: 35vw;
+    margin-top: 20vh;
+}
+.Texto_Creacion_13{
+    width: 20vw;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    font-size: 20px;
+}
+.Boton_Creacion_13{
+    width: 12vw;
+    height: 8vh;
+    margin-left: 8vw;
+    margin-top: 3vh;
+}
 
 
 
