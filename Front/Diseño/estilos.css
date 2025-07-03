@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.Fondo{
+    background-color: #F7E8D6;
+}
 .Botones button{
     background-color: rgb(90, 90, 90);
     color:black;
@@ -603,4 +606,47 @@
     background-color:rgb(192, 190, 190);
     margin-left: 10vw;
     margin-top: 2vh;
+}
+.Pasos_Emprendimiento{
+    display: flex;
+    width: 80vw;
+}
+.Pasos_Texto{
+    margin-left: 10vw;
+    font-size: 40px;
+    margin-right: 22vw;
+}
+.Boton_Paso{
+    border-radius: 50%;
+    border: none;
+    width: 3.5vw;
+    height: 7vh;
+    margin-left: 1vw;
+}
+.Texto_Paso{
+    background-color: rgb(110, 110, 110);
+    width: 40vw;
+    height: 20vh;
+    border-radius: 15%;
+    margin-top: 3vh;
+    margin-left: 30vw;
+    text-align: center;
+    padding: 8vh;
+    margin-bottom: 3vh;
+}
+.Logo_Emprendimiento{
+    width: 20vw;
+    height: 30vh;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+.Titulo_Desc_Emprendimiento{
+    margin-left: 20vw;
+    margin-top: 5vh;
+}
+.Texto_Desc_Emprendimiento{
+    width: 20vw;
+    height: 20vh;
+    margin-left: 16vw;
+    text-align: center;
 }

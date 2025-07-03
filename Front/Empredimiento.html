@@ -13,27 +13,88 @@ mitad derecha inferior el logo, frase y colores de la marca
 -->
 <body>
     <header>
-        <div class= "Logo_Producto">
             <a href="General_Home.html">
                 <img src="./Diseño/Logo cuadrado.png" class="ImagenProducto">
             </a>
-        </div>
+            <h1 class="Titulo">Emprendimiento</h1>
     </header>
     <main>
-        <div class="Pasos">
-        <h1 class="Titulo_Pasos_2">Pasos</h1>
-            <div>
-                <h1 class="Otro_Paso" id="paso_extra1">texto</h1>
-                <h1 class="Otro_Paso" id="paso_extra2">texto</h1>
-                <h1 class="Otro_Paso" id="paso_extra3">texto</h1>
-                <h1 class="Otro_Paso" id="paso_extra4">texto</h1>
-                <h1 class="Otro_Paso" id="paso_extra5">texto</h1>
-                <h1 class="Otro_Paso" id="paso_extra6">texto</h1>
-            </div>
+        <div class="Pasos_Emprendimiento">
+            <h1 class="Pasos_Texto">Pasos</h1>
+            <button class="Boton_Paso" id="Paso_1">
+                <h2>1</h2>
+            </button>
+            <button class="Boton_Paso" id="Paso_2">
+                <h2>2</h2>
+            </button>
+            <button class="Boton_Paso" id="Paso_3">
+                <h2>3</h2>
+            </button>
+            <button class="Boton_Paso" id="Paso_4">
+                <h2>4</h2>
+            </button>
+            <button class="Boton_Paso" id="Paso_5">
+                <h2>5</h2>
+            </button>
         </div>
+        <div class="Texto_Paso">
+            <p id="Texto_Alterable">Texto</p>
+        </div>
+        
+        <hr>
+
+        <div class="Pasos">
+          <img src="" class="Logo_Emprendimiento">
+          <div class="Emprendimiento_Descripcion">
+            <div class="Colores_Seleccionados" style="margin-top: 3vh;">
+                <div class="Color_Seleccionado">
+                    <div class="Cuadrado_Color"></div>
+                    <p>Color 1</p>
+                </div>
+                <div class="Color_Seleccionado">
+                    <div class="Cuadrado_Color"></div>
+                    <p>Color 2</p>
+                </div>
+                <div class="Color_Seleccionado">
+                    <div class="Cuadrado_Color"></div>
+                    <p>Color 3</p>
+                </div>
+                <div class="Color_Seleccionado">
+                    <div class="Cuadrado_Color"></div>
+                    <p>Color 4</p>
+                </div>
+            </div>
+            <h1 class="Titulo_Desc_Emprendimiento">¿Qué somos?</h1>
+            <p class="Texto_Desc_Emprendimiento">Productos diseñados para perfumar y ambientar espacios. Incluyen sprays naturales, difusores con varillas, sahumerios y esencias. Elaborados artesanalmente con mezclas de aceites esenciales y fragancias que transmiten bienestar. Que aparte transmite frescura y calma.</p>
+          </div>
+        </div>
+
+        <script>
+            const Paso1 = document.getElementById('Paso_1');
+            const Paso2 = document.getElementById('Paso_2');
+            const Paso3 = document.getElementById('Paso_3');
+            const Paso4 = document.getElementById('Paso_4');
+            const Paso5 = document.getElementById('Paso_5');
+            const Texto_Cambiable = document.getElementById('Texto_Alterable');
+
+            Paso1.addEventListener('click', function() {
+                Texto_Cambiable.textContent= ``;
+            });
+            Paso2.addEventListener('click', function() {
+                Texto_Cambiable.textContent= ``;
+            });
+            Paso3.addEventListener('click', function() {
+                Texto_Cambiable.textContent= ``;
+            });
+            Paso4.addEventListener('click', function() {
+                Texto_Cambiable.textContent= ``;
+            });
+            Paso5.addEventListener('click', function() {
+                Texto_Cambiable.textContent= ``;
+            });
+        </script>
     </main>
     <footer>
-        
     </footer>
 </body>
 </html>
