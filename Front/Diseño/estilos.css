@@ -7,7 +7,7 @@
     background-color: #F7E8D6;
 }
 .Botones button{
-    background-color: rgb(90, 90, 90);
+    background-color: #EEA175;
     color:black;
     text-align: center;
     border: none;
@@ -59,7 +59,7 @@
     margin-left: 10vw;
     width: 80vw;
     height: 15vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
     display: flex;
     line-height: 7vw;
     margin-bottom: 2vh;
@@ -79,7 +79,7 @@
     margin-left: 83vw;
     padding: 2vw;
     border-radius: 6vw;
-    background-color:rgb(192, 190, 190);
+    background-color: #EEA175;
 }
 .Añadir_Producto a{
     width: 2.5vw;
@@ -98,6 +98,8 @@
     margin-left: 35vw;
     width: 25vw;
     height: 15vh;
+    background-color: #EEA175;
+    border: none;
 }
 .Input_Login_Signin{
     margin-bottom: 3vh;
@@ -128,10 +130,15 @@
     display: flex;
     gap: 5vw;
     margin-bottom: 5vh;
-    background-color: rgb(194, 195, 196);
+    background-color: #F2B482;
+}
+.Boton_Nav{
+    background-color: #F7C790;
+    border: none;
 }
 .Ya_Estas_Aca{
-    background-color: rgb(190, 189, 186);
+    background-color: #EEA175;
+    border: none;
 }
 .Textitos{
     display:flex;
@@ -169,6 +176,7 @@
     margin-top: 27vh;
     margin-left: 40vw;
     border-radius: 25px;
+    background-color: #EEA175;
 }
 .Seleccionar_Cantidad{
     display: flex;
@@ -205,6 +213,7 @@
 .Volver_Materiales{
     border-radius: 15px;
     width: 22vw;
+    background-color: #EEA175;
 }
 .Textitititos{
     display: flex;
@@ -262,31 +271,12 @@
     margin-bottom: 3vh;
 }
 
-.Guia{
-    width: 10vw;
-    height: 100%;
-    background-color: rgb(110, 110, 110);
-    float: left;
-}
-.Boton_Aside{
-    margin: 2vw;
-    margin-bottom: 0.5vh;
-    border: none;
-}
-.ImagenAside{
-    width: 5vw;
-    height: 10vh;
-}
-.LogoAside{
-    width: 7vw;
-    height: 12vh;
-    margin: 1vw;
-}
+
 
 .Cuadrito_Creacion{
     width: 43vw;
     height: 72vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
     margin-left: 30vw;
 }
 .Texto_Centrado{
@@ -300,6 +290,8 @@
     width: 25vw;
     height: 10vh;
     margin-left: 9vw;
+    background-color: #EEA175;
+    border: none;
 }
 .Texto_Creacion{
     width: 45vw;
@@ -310,7 +302,7 @@
     text-align: center;
     width: 12vw;
     height: 20vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
 }
 .Primera_Fila{
     display: flex;
@@ -336,7 +328,7 @@
 .Producto{
     width: 12vw;
     height: 25vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
 }
 .Texto_Creacion_3{
     text-align: center;
@@ -351,16 +343,20 @@
     width: 15vw;
     height: 7vh;
     margin-left: 42vw;
+    background-color: #EEA175;
+    border: none;
 }
 .Boton_Creacion_4{
     width: 18vw;
     height: 10vh;
     margin-left: 2vw;
+    background-color: #EEA175;
+    border: none;
 }
 .Tip{
     width: 25vw;
     height: 20vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
 }
 .Texto_Creacion_5{
     text-align: center;
@@ -375,11 +371,13 @@
 .Boton_Creacion_5{
     width: 18vw;
     height: 10vh;
+    background-color: #EEA175;
+    border: none;
 }
 .Texto_Cuadro_Tip{
     width: 35vw;
     height: 60vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
     margin-left: 35vw;
 }
 .Texto_Creacion_6{
@@ -396,11 +394,13 @@
     height: 6vh;
     margin-left: 11vw;
     margin-top: 5vh;
+    background-color: #EEA175;
+    border: none;
 }
 .Cuadro_Creacion_7{
     width: 45vw;
     height: 65vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
     margin-left: 30vw;
     margin-top: 5vh;
 }
@@ -417,11 +417,15 @@
     margin-top: 10vh;
     margin-bottom: 11vh;
     margin-left: 3vw;
+    background-color: #F7D6B0;
+    border: none;
 }
 .Boton_Creacion_7{
     width: 18vw;
     height: 10vh;
     margin-left: 13.5vw;
+    background-color: #EEA175;
+    border: none;
 }
 .Set_Colores{
     display: flex;
@@ -436,6 +440,7 @@
 .ImagenColor{
     width: 6vw;
     height: 10vh;
+    background-color: #F7C790;
 }
 .Textito_Color{
     text-align: center;
@@ -449,6 +454,8 @@
     width: 15vw;
     height: 10vh;
     margin-left: 12vw;
+    background-color: #EEA175;
+    border: none;
 }
 .Set_Logos{
     display: flex;
@@ -458,7 +465,7 @@
 .Logo_Creacion{
     width: 14vw;
     height: 27vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
     margin-left: 3vw;
 }
 .Textito_Plantilla{
@@ -488,7 +495,7 @@
 .Clase_de_Color{
     width: 15vw;
     height: 5vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
     text-align: center;
     align-self: center;
 }
@@ -500,19 +507,23 @@
 .Cuadrado_Color{
     width: 6vw;
     height: 12vh;
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
 }
 .Botoncito_Creacion_9{
     margin-top: 3vh;
     width: 15vw;
     height: 5vh;
     margin-left: 73vw;
+    background-color: #EEA175;
+    border: none;
 }
 .Boton_Creacion_9{
     width: 13vw;
     height: 8vh;
     margin-top: 5vh;
     margin-left: 45vw;
+    background-color: #EEA175;
+    border: none;
 }
 .Botones_Creacion_11{
     display: flex;
@@ -522,9 +533,11 @@
     height: 4vh;
     margin-left: 5vw;
     margin-top: 7vh;
+    background-color: #EEA175;
+    border: none;
 }
 .Form_Creacion_12{
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
     width: 50vw;
     height: 70vh;
     margin-left: 25vw;
@@ -538,19 +551,23 @@
     height: 10vh;
     margin-left: 16vw;
     margin-top: 25vh;
+    background-color: #EEA175;
+    border: none;
 }
 .Boton_Creacion_12{
     width: 20vw;
     height: 12vh;
     margin-left: 15vw;
     margin-top: 8vh;
+    background-color: #EEA175;
+    border: none;
 }
 .Form_Creacion_13{
-    background-color: rgb(110, 110, 110);
+    background-color: #F7C790;
     width: 30vw;
     height: 40vh;
     margin-left: 35vw;
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 .Texto_Creacion_13{
     width: 20vw;
@@ -563,6 +580,8 @@
     height: 8vh;
     margin-left: 8vw;
     margin-top: 3vh;
+    background-color: #EEA175;
+    border: none;
 }
 
 
